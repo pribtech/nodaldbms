@@ -1,0 +1,22 @@
+{ "name": "nodaldbms"
+, "description": "nodal dbms based onalasql"
+,"version": "0.0.1"
+,"main": "main.js"
+,"config" : { "port" : "3000" }
+,"repository" :
+	{"type" : "git"
+	,"url" : "https://github.com/pribtech/nodaldbms.git"
+	 }
+ ,"keywords":  ["javascript","dbms","federated","sql","distributed"]
+,"author": "Peter Prib"
+,"bugs": "https://github.com/pribtech/nodaldbms/issues"
+,"license": "GPL-3.0"
+,"bin": 
+	{"test": "./main.js"
+	}
+ ,"dependencies": 
+    {"express": "*"
+	,"alasql":"*"
+	}
+,"scripts": { "start": "node main.js"}
+}

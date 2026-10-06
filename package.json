@@ -15,8 +15,11 @@
 	{"test": "./main.js"
 	}
  ,"dependencies": 
-    {"express": "*"
+     {"express": "*"
 	,"alasql":"*"
 	}
 ,"scripts": { "start": "node main.js"}
+,"engines": {
+  "node": ">=22.0.0"
+}
 }
